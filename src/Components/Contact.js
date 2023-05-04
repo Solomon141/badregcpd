@@ -1,6 +1,7 @@
 import React from 'react';
-
 import { FaPeriscope, FaTelegramPlane, FaWhatsapp, FaTwitter, FaPhone, FaGlobe, FaArrowAltCircleRight } from 'react-icons/fa';
+
+import ContactImage from '../Images/Contact.png';
 
 function Contact() {
   const titleStyle = {
@@ -28,24 +29,8 @@ function Contact() {
   return (
     <div className="container">
       <div style={titleStyle}>OUR CONTACT DETAILS</div>
-      <div className="row" style={{ paddingBottom: 10 , paddingTop:20}}>
-        <div className="col-sm-4" style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-end', justifyContent: 'center', fontSize: 35, fontWeight: 'bold' }}>
-          <p> OPEN </p>
-          <p> OFFICE </p>
-          <p> HOURS </p>
-        </div>
-        <div className="col-sm-2" style={{display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', fontSize: 35, fontWeight: 'bold'}}>
-          <FaArrowAltCircleRight />
-        </div>
-        <div className="col-sm-6" style={{ display: 'flex', flexDirection: 'column', alignItems: "flex-start", justifyContent: 'flex-start', fontWeight: 'bold' }}>
-          <p> MONDAY ---- 8:30AM to 5:30PM</p>
-          <p> TUESDAY ---- 8:30AM to 5:30PM </p>
-          <p> WEDNESDAY ---- 8:30AM to 5:30PM </p>
-          <p> THURSDAY ---- 8:30AM to 5:30PM </p>
-          <p> FRIDAY ---- 8:30AM to 5:30PM </p>
-          <p> SATURDAY ---- 8:30AM to 12:30AM </p>
-          <p> SUNDAY ---- Closed </p>
-        </div>
+      <div className="row" style={{  alignContent:"center",justifyContent:'center' , paddingBottom: 10 , paddingTop:20}}>
+       <img style={{ height: '70%', width: '70%' }} src={ContactImage} alt="logo" />
       </div>
       <div style={titleStyle}> CONTACT US </div>
       <div className="row" style={{ paddingBottom: 10 }}>

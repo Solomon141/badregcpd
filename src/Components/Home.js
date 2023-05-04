@@ -2,10 +2,10 @@ import React, { useEffect, useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 
-import one from '../Images/Carousel/1s.JPG';
-import two from '../Images/Carousel/2s.JPG';
-import three from '../Images/Carousel/3s.JPG';
-import four from '../Images/Carousel/4s.JPG';
+// import one from '../Images/Carousel/1s.JPG';
+// import two from '../Images/Carousel/2s.JPG';
+// import three from '../Images/Carousel/3s.JPG';
+// import four from '../Images/Carousel/4s.JPG';
 
 import Kemi from '../Images/Carousel/kemi.jpg';
 import Dr from '../Images/Carousel/Dr.JPG';
@@ -42,21 +42,21 @@ function Home() {
       <div>
         <Carousel>
           <Carousel.Item>
-            <img style={{ height: 450 }} className="d-block w-100" src={Dr} alt="First slide" />
+            <img style={{ height: '85VH' }} className="d-block w-100" src={Dr} alt="First slide" />
             <Carousel.Caption style={{ color: '#f59028' }}>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img style={{ height: 450 }} className="d-block w-100" src={Kemi} alt="Second slide" />
+            <img style={{ height: '85VH' }} className="d-block w-100" src={Kemi} alt="Second slide" />
             <Carousel.Caption style={{ color: '#f59028' }}>
               <h3>KEMIYA</h3>
               <p>Presenting on the annual conference of ESHO.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
-            <img style={{ height: 450 }} className="d-block w-100" src={Attendees} alt="Third slide" />
+            <img style={{ height: '85VH' }} className="d-block w-100" src={Attendees} alt="Third slide" />
 
             <Carousel.Caption style={{ color: '#f59028' }}>
               <h3>Trainees</h3>
@@ -96,15 +96,10 @@ function Home() {
       </div>
       {/* OBJECTIVES START  */}
       <div style={{ display: 'flex', justifyContent: 'center', paddingBottom: 10 }} className="container">
-        {/* <p style={headingStyles}> OUR OBJECTIVES </p> */}
         <p style={headingStyles}> WHO WE ARE </p>
       </div>
 
       <div className="container">
-        {/* <blockquote className="blockquote">
-          <p className="mb-0">"Your time is limited, so don't waste it living someone else's life. Don't be trapped by dogma - which is living with the results of other people's thinking. Don't let the noise of others' opinions drown out your own inner voice."</p>
-          <footer className="blockquote-footer">Steve Jobs</footer>
-        </blockquote> */}
         <p> Badreg Pvt. Ltd. Co. is one of the most reputable companies in Ethiopia which is primarily engaged in the business of import and distribution of quality, affordable and diversified range of pharmaceutical products, cosmetics, auto paint, electrical goods and building materials.</p>
         <p> Badreg Pvt. Ltd. Co. was founded in 1997 and right from our humble beginnings we always strived to provide the highest quality products at the best value for money. Our product supply range expanded over the years combined with a commitment to our customers to provide the highest standards of services that became in-built in our work culture and practices.</p>
         <p> Continuing Professional Development (CPD) is a career-long process that involves the tracking and documenting of skills, knowledge and experience gained, both formally and informally, beyond any initial education and training. It helps pharmacists to keep their practice and proficiency up to date to maintain standards. All pharmacists must undertake Continuing Professional Development (CPD) on an annual basis in order to be eligible to continue their registration.</p>
